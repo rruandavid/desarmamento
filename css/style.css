@@ -1,0 +1,11 @@
+		body {color: red; background: no-repeat; 
+		 background-color: #DDDDDD;
+		 background-image: url(../img/construcao.jpg);
+		 background-repeat: no-repeat;
+		 background-attachment: fixed;
+		 background-size: 100%}
+
+			font-family: 'Merriweather', serif;}
+
+		h1 { font-size: 25pt; color: green }
+
