@@ -141,7 +141,6 @@
 
 .inner{
 	padding: 7%;
-	height: 300px;
 }
 
 .inner a{
@@ -180,6 +179,7 @@
 }
 .newsletter form{
 	margin-top: 2%;
+	padding: 5%;
 }
 .newsletter input{
 	width: 100%;
@@ -243,13 +243,16 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 		  height: 100px;
 		  float: left;
 		  background: url(../img/est.png) center center/ 214px no-repeat;}
-    .btn-menu{
-			margin: 17px;}
-}
+
+	.btn-menu{
+			margin: 17px;
+		}
+ }
+
 /*////////////////////tablets/////////////////////////*/
 @media screen and (min-width: 768px){
 	.servico {
-	width: 49%;
+	width: 100%;
 	float: left;
 	margin-right: 2%;}
 
@@ -266,7 +269,7 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 
 /*////////////////////MEDIUM DEVICES - TABLETS E DESKTOPS /////////////////////////*/
 @media screen and (min-width: 960px){
-	.servico { width: 32%}
+	.servico { width: 100%}
 
 	.servico:nth-child(2){margin-right: 2%;} /* tira a margem de 2% do segudo elemento */
 	.servico:nth-child(3){margin-right: 0%;} 
@@ -295,16 +298,19 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 		  background-color: #636363; 
 		  display: block!important; 
 		  position: static;
-		  margin-right: 5%}
+		  margin-right: 5%;}
 	.menu li{padding: 0; float: left;}
 	.menu li a{ color: #130400; font-size: 1em; padding: 15px}
 	.menu li a:hover{border: none; color: red	}
-
+	.servicos {width: 100%; padding: 0% 4%;}
+	.servico {width: 100%;}
+	.servico img{width: 70%; height: 100%}
+	.newsletter form{margin-top: 0%; padding: 5%}
+	.logo{margin-left: 15px;}
+	.inner p{margin-top: 2%; color: #130400; line-height: 1.5em;}
+	.inner b{ font-weight: 0.5px}
+	.title {margin: 0}
 }
-
-
-
-
 
 
 
